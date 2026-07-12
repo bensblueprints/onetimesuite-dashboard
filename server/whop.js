@@ -26,13 +26,14 @@ function createState() {
   return b64url(crypto.randomBytes(16));
 }
 
-function buildAuthorizeUrl({ clientId, redirectUri, state, codeChallenge }) {
+function buildAuthorizeUrl({ clientId, redirectUri, state, codeChallenge, nonce }) {
   const url = new URL(AUTHORIZE_URL);
   url.searchParams.set('response_type', 'code');
   url.searchParams.set('client_id', clientId);
   url.searchParams.set('redirect_uri', redirectUri);
   url.searchParams.set('scope', 'openid profile');
   url.searchParams.set('state', state);
+  url.searchParams.set('nonce', nonce); // required by Whop for the openid scope
   url.searchParams.set('code_challenge', codeChallenge);
   url.searchParams.set('code_challenge_method', 'S256');
   return url.toString();

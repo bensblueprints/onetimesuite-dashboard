@@ -56,12 +56,14 @@ app.get('/', (req, res) => {
 app.get('/login', (req, res) => {
   if (!CLIENT_ID) return res.status(500).send(errorPage(500, 'OAuth is not configured on this server (missing WHOP_OAUTH_CLIENT_ID).'));
   const state = whop.createState();
+  const nonce = whop.createState();
   const pkce = whop.createPkce();
-  session.setOauthState(res, { state, verifier: pkce.verifier });
+  session.setOauthState(res, { state, verifier: pkce.verifier, nonce });
   res.redirect(whop.buildAuthorizeUrl({
     clientId: CLIENT_ID,
     redirectUri: REDIRECT_URI,
     state,
+    nonce,
     codeChallenge: pkce.challenge,
   }));
 });
