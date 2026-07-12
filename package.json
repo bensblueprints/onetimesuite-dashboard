@@ -1,0 +1,18 @@
+{
+  "name": "onetimesuite-dashboard",
+  "version": "1.0.0",
+  "description": "OneTimeSuite customer dashboard — login with Whop, see your owned products",
+  "private": true,
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build:catalog": "node scripts/build-catalog.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

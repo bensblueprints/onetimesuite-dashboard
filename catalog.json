@@ -1,0 +1,922 @@
+{
+  "generatedAt": "2026-07-12T01:53:17.255Z",
+  "companyId": "biz_Ro2hWjwgeK5rm8",
+  "bundle": {
+    "slug": "onetimesuite-complete",
+    "productId": "prod_deLvZPOasRITY",
+    "title": "OneTimeSuite Complete — All 101 Apps + Every Future Release",
+    "price": 997,
+    "productUrl": "https://whop.com/benjisaiempire/onetimesuite-complete"
+  },
+  "products": [
+    {
+      "slug": "askback",
+      "title": "Askback — More Google reviews on autopilot, owned forever.",
+      "brand": "Askback",
+      "productId": "prod_FDuZPEmtLHMbW",
+      "repo": "review-request-automator",
+      "price": 34,
+      "icon": "🙋"
+    },
+    {
+      "slug": "billcraft",
+      "title": "Billcraft — Self-Hosted Invoicing for Freelancers",
+      "brand": "Billcraft",
+      "productId": "prod_6Imx27jeD2csL",
+      "repo": "invoice-generator",
+      "price": 39,
+      "icon": "🧾"
+    },
+    {
+      "slug": "billoop",
+      "title": "Billoop — Recurring billing on your own Stripe, owned forever.",
+      "brand": "Billoop",
+      "productId": "prod_uakpw2syrAs8d",
+      "repo": "recurring-billing-mini",
+      "price": 49,
+      "icon": "🔁"
+    },
+    {
+      "slug": "boardly",
+      "title": "Boardly — Self-Hosted Kanban Boards (Trello Replacement)",
+      "brand": "Boardly",
+      "productId": "prod_VeFIinvVGZM86",
+      "repo": "boardly-kanban",
+      "price": 19,
+      "icon": "📋"
+    },
+    {
+      "slug": "bookslot",
+      "title": "Bookslot — Self-Hosted Scheduling & Booking Page",
+      "brand": "Bookslot",
+      "productId": "prod_CD30HLTnBsxdP",
+      "repo": "booking-page",
+      "price": 39,
+      "icon": "📅"
+    },
+    {
+      "slug": "bravowall",
+      "title": "Bravowall — Self-Hosted Testimonial Walls + PNG Card Export",
+      "brand": "Bravowall",
+      "productId": "prod_ZirH6BKoQfoqH",
+      "repo": "bravowall",
+      "price": 29,
+      "icon": "👏"
+    },
+    {
+      "slug": "captionly",
+      "title": "Captionly — Burn karaoke captions onto your clips, all on your own hardware.",
+      "brand": "Captionly",
+      "productId": "prod_BzGH5FfR4dOVf",
+      "repo": "video-clip-captioner",
+      "price": 34,
+      "icon": "💬"
+    },
+    {
+      "slug": "cardsmith",
+      "title": "Cardsmith — Self-Hosted Social Card / OG Image API",
+      "brand": "Cardsmith",
+      "productId": "prod_W0KGTl4vc3XVn",
+      "repo": "og-image-studio",
+      "price": 39,
+      "icon": "🎴"
+    },
+    {
+      "slug": "castport",
+      "title": "Castport — Self-Hosted Podcast Hosting + Valid RSS",
+      "brand": "Castport",
+      "productId": "prod_ov2m17TbLy4nV",
+      "repo": "castport",
+      "price": 39,
+      "icon": "📻"
+    },
+    {
+      "slug": "certwatch",
+      "title": "Certwatch — SSL certificate and domain expiry monitoring you own forever.",
+      "brand": "Certwatch",
+      "productId": "prod_ZfIr22IT0uBX8",
+      "repo": "ssl-cert-monitor",
+      "price": 24,
+      "icon": "📜"
+    },
+    {
+      "slug": "chatlet",
+      "title": "Chatlet — Self-Hosted Live Chat for Your Website",
+      "brand": "Chatlet",
+      "productId": "prod_CF7Z7hlEDJJiZ",
+      "repo": "live-chat",
+      "price": 49,
+      "icon": "💬"
+    },
+    {
+      "slug": "chatterbox",
+      "title": "Chatterbox — Self-Hosted Embeddable Comments",
+      "brand": "Chatterbox",
+      "productId": "prod_tlbqdimeCVYYV",
+      "repo": "chatterbox-comments",
+      "price": 24,
+      "icon": "💬"
+    },
+    {
+      "slug": "citewatch",
+      "title": "Citewatch — One NAP, everywhere, always, owned forever.",
+      "brand": "Citewatch",
+      "productId": "prod_Gk88MtaX1rnoh",
+      "repo": "local-seo-citation-tracker",
+      "price": 34,
+      "icon": "📍"
+    },
+    {
+      "slug": "clickmap",
+      "title": "Clickmap — Click heatmaps and session replay you own forever.",
+      "brand": "Clickmap",
+      "productId": "prod_koRf47gAsPffk",
+      "repo": "heatmap-session-recorder",
+      "price": 49,
+      "icon": "🖱️"
+    },
+    {
+      "slug": "clientdesk",
+      "title": "Clientdesk — Revenue analytics and a customer portal on your own Stripe data.",
+      "brand": "Clientdesk",
+      "productId": "prod_OEiTSRE7pEL7h",
+      "repo": "customer-portal-billing",
+      "price": 39,
+      "icon": "🧑‍💻"
+    },
+    {
+      "slug": "clipdeck",
+      "title": "ClipDeck — Local Screen Recorder with MP4 & GIF Export",
+      "brand": "ClipDeck",
+      "productId": "prod_gmbuJMNyDHdFC",
+      "repo": "screen-recorder-desktop",
+      "price": 29,
+      "icon": "🎥"
+    },
+    {
+      "slug": "contractly",
+      "title": "Contractly — Sixteen plain-language contract templates you fill in and own.",
+      "brand": "Contractly",
+      "productId": "prod_ZyxJ5m7SOqKcN",
+      "repo": "contract-templates",
+      "price": 29,
+      "icon": "✍️"
+    },
+    {
+      "slug": "cutaway",
+      "title": "Cutaway — Local AI Background Remover",
+      "brand": "Cutaway",
+      "productId": "prod_W6vk2gCI69ubU",
+      "repo": "bg-remover",
+      "price": 24,
+      "icon": "🪄"
+    },
+    {
+      "slug": "deepdesk",
+      "title": "Deepdesk — Local-First Focus Dashboard (Pomodoro + Ambient Noise)",
+      "brand": "Deepdesk",
+      "productId": "prod_QsDc3UOwL4IEc",
+      "repo": "focus-dashboard",
+      "price": 15,
+      "icon": "🎯"
+    },
+    {
+      "slug": "deskly",
+      "title": "Deskly — The email-to-ticket help desk you own forever.",
+      "brand": "Deskly",
+      "productId": "prod_aOIWfdOzZHhPm",
+      "repo": "helpdesk-tickets",
+      "price": 49,
+      "icon": "🎫"
+    },
+    {
+      "slug": "docsmithapi",
+      "title": "Docsmith API — Turn any OpenAPI spec into branded, Stripe-style API docs,…",
+      "brand": "Docsmith API",
+      "productId": "prod_7cUccwH9yDRI4",
+      "repo": "api-docs-generator",
+      "price": 29,
+      "icon": "📘"
+    },
+    {
+      "slug": "docwell",
+      "title": "Docwell — Self-Hosted Knowledge Base & Help Center",
+      "brand": "Docwell",
+      "productId": "prod_XgizOxnsQdzb2",
+      "repo": "knowledge-base",
+      "price": 29,
+      "icon": "📚"
+    },
+    {
+      "slug": "doortracker",
+      "title": "Door Tracker — Prove the route was actually walked — not just driven.",
+      "brand": "Door Tracker",
+      "productId": "prod_PngjvWeS38wwC",
+      "repo": "door-tracker",
+      "price": 49,
+      "icon": "🚪"
+    },
+    {
+      "slug": "droplink",
+      "title": "Droplink — Self-Hosted Big-File Transfer",
+      "brand": "Droplink",
+      "productId": "prod_9lqPbRqsWyQIE",
+      "repo": "droplink",
+      "price": 29,
+      "icon": "💧"
+    },
+    {
+      "slug": "eventcraft",
+      "title": "Eventcraft — Event registration and ticketing you buy once — with zero…",
+      "brand": "Eventcraft",
+      "productId": "prod_ME8Mj3S8bUMid",
+      "repo": "event-registration",
+      "price": 39,
+      "icon": "🎟️"
+    },
+    {
+      "slug": "famping",
+      "title": "FamPing — Real-time family locations and place alerts — without selling your…",
+      "brand": "FamPing",
+      "productId": "prod_aJPeDOmfLZCga",
+      "repo": "famping",
+      "price": 39,
+      "icon": "📍"
+    },
+    {
+      "slug": "feedloft",
+      "title": "Feedloft — Self-Hosted Keyboard-First RSS Reader",
+      "brand": "Feedloft",
+      "productId": "prod_zkwqgU4ROq3Um",
+      "repo": "feedloft",
+      "price": 24,
+      "icon": "📰"
+    },
+    {
+      "slug": "formforge",
+      "title": "Formforge — Self-Hosted Form Builder + Submissions Inbox",
+      "brand": "Formforge",
+      "productId": "prod_9fPwiTW2CNU79",
+      "repo": "form-builder",
+      "price": 39,
+      "icon": "📝"
+    },
+    {
+      "slug": "forumly",
+      "title": "Forumly — Your community, your server — forums existed before SaaS pricing did.",
+      "brand": "Forumly",
+      "productId": "prod_177UcXFtqcFhw",
+      "repo": "community-forum",
+      "price": 39,
+      "icon": "🗣️"
+    },
+    {
+      "slug": "hawkwatch",
+      "title": "Hawkwatch — Self-Hosted Price & Stock Monitoring",
+      "brand": "Hawkwatch",
+      "productId": "prod_w8Ks1eZFBjOGz",
+      "repo": "hawkwatch",
+      "price": 34,
+      "icon": "🦅"
+    },
+    {
+      "slug": "hearback",
+      "title": "Hearback — Self-Hosted Feedback + NPS Widget",
+      "brand": "Hearback",
+      "productId": "prod_ygpTC29OuYybb",
+      "repo": "feedback-widget",
+      "price": 29,
+      "icon": "🎧"
+    },
+    {
+      "slug": "hirestack",
+      "title": "Hirestack — The hiring pipeline a small company actually needs.",
+      "brand": "Hirestack",
+      "productId": "prod_6CtRBfyS08CY2",
+      "repo": "applicant-tracker",
+      "price": 49,
+      "icon": "🧑‍💼"
+    },
+    {
+      "slug": "hookscope",
+      "title": "Hookscope — Self-Hosted Webhook Inspector (Capture + Replay)",
+      "brand": "Hookscope",
+      "productId": "prod_EtXvzAEKd5RqK",
+      "repo": "hookscope",
+      "price": 24,
+      "icon": "🪝"
+    },
+    {
+      "slug": "iconforge",
+      "title": "Iconforge — One image in, every favicon and app-icon size out — batched,…",
+      "brand": "Iconforge",
+      "productId": "prod_Y0wmFMkQs0qNp",
+      "repo": "icon-favicon-generator",
+      "price": 15,
+      "icon": "🔷"
+    },
+    {
+      "slug": "inkpress",
+      "title": "Inkpress — Self-Hosted Markdown Blog Engine",
+      "brand": "Inkpress",
+      "productId": "prod_cVH9OKQpvMZGE",
+      "repo": "inkpress",
+      "price": 29,
+      "icon": "✒️"
+    },
+    {
+      "slug": "inkseal",
+      "title": "Inkseal — Self-Hosted E-Signature Platform",
+      "brand": "Inkseal",
+      "productId": "prod_ZcjNuH1rHmOXa",
+      "repo": "inkseal",
+      "price": 49,
+      "icon": "✍️"
+    },
+    {
+      "slug": "keyloop",
+      "title": "Keyloop — The 2FA authenticator that never holds your codes hostage.",
+      "brand": "Keyloop",
+      "productId": "prod_1RSDj0lR216gF",
+      "repo": "2fa-authenticator-backup",
+      "price": 19,
+      "icon": "🔑"
+    },
+    {
+      "slug": "keymaster",
+      "title": "Keymaster — Self-Hosted License Key Server for Software Sellers",
+      "brand": "Keymaster",
+      "productId": "prod_IWhJawww8QSKJ",
+      "repo": "keymaster",
+      "price": 49,
+      "icon": "🔑"
+    },
+    {
+      "slug": "ledgerlitehome",
+      "title": "Ledgerlite Home — Envelope budgeting that lives on your computer, not a…",
+      "brand": "Ledgerlite Home",
+      "productId": "prod_NTq1RsAM0Y8nD",
+      "repo": "budget-planner-personal",
+      "price": 15,
+      "icon": "🏠"
+    },
+    {
+      "slug": "ledgerly",
+      "title": "Ledgerly — Expense Tracker with Receipt OCR",
+      "brand": "Ledgerly",
+      "productId": "prod_8RZ85AkN1hpSV",
+      "repo": "ledgerly-expenses",
+      "price": 29,
+      "icon": "📒"
+    },
+    {
+      "slug": "lessonforge",
+      "title": "Lessonforge — The course platform you own forever — no monthly fee, no cut…",
+      "brand": "Lessonforge",
+      "productId": "prod_hFGuBEuWVN2ek",
+      "repo": "course-builder-lms",
+      "price": 49,
+      "icon": "🎓"
+    },
+    {
+      "slug": "linkguard",
+      "title": "Linkguard — The site-wide broken-link and redirect crawler you own forever.",
+      "brand": "Linkguard",
+      "productId": "prod_QChSWyu1XT5wq",
+      "repo": "broken-link-checker",
+      "price": 24,
+      "icon": "🔗"
+    },
+    {
+      "slug": "linkleaf",
+      "title": "Linkleaf — Self-Hosted Link-in-Bio Page Builder",
+      "brand": "Linkleaf",
+      "productId": "prod_5x2EvMMJ26DHe",
+      "repo": "link-in-bio",
+      "price": 19,
+      "icon": "🌿"
+    },
+    {
+      "slug": "listcraft",
+      "title": "Listcraft — A self-hosted property listing website — your listings, your…",
+      "brand": "Listcraft",
+      "productId": "prod_oCDuTaj8iWyiJ",
+      "repo": "property-listing-site",
+      "price": 39,
+      "icon": "🏘️"
+    },
+    {
+      "slug": "logbin",
+      "title": "Logbin — Self-hosted log aggregation with live tail, search and alert rules.",
+      "brand": "Logbin",
+      "productId": "prod_dPrmQqky5gO9k",
+      "repo": "log-viewer-aggregator",
+      "price": 34,
+      "icon": "🪵"
+    },
+    {
+      "slug": "maptrail",
+      "title": "Maptrail — Crawl any site on your own machine and ship a clean sitemap.",
+      "brand": "Maptrail",
+      "productId": "prod_3ppYYNSJ8ZusW",
+      "repo": "sitemap-generator",
+      "price": 19,
+      "icon": "🗺️"
+    },
+    {
+      "slug": "memeforge",
+      "title": "Memeforge — Classic meme captioning with a real template library — no…",
+      "brand": "Memeforge",
+      "productId": "prod_S6cB6DeeVP642",
+      "repo": "meme-generator",
+      "price": 15,
+      "icon": "😂"
+    },
+    {
+      "slug": "menuly",
+      "title": "Menuly — QR menus you own forever — update a price and the guest sees it the…",
+      "brand": "Menuly",
+      "productId": "prod_X0V56g8JMwvRj",
+      "repo": "restaurant-menu-qr",
+      "price": 24,
+      "icon": "🍽️"
+    },
+    {
+      "slug": "mockcraft",
+      "title": "Mockcraft — The product mockup generator you buy once and own forever.",
+      "brand": "Mockcraft",
+      "productId": "prod_bjzr4UJy0krOT",
+      "repo": "mockup-generator",
+      "price": 19,
+      "icon": "🖼️"
+    },
+    {
+      "slug": "orgtree",
+      "title": "Orgtree — Build and maintain your org chart without a seat-priced diagram tool.",
+      "brand": "Orgtree",
+      "productId": "prod_gNs4rmqxP2ijw",
+      "repo": "org-chart-builder",
+      "price": 19,
+      "icon": "🌳"
+    },
+    {
+      "slug": "overlayr",
+      "title": "Overlayr — Self-Hosted OBS Stream Overlays",
+      "brand": "Overlayr",
+      "productId": "prod_D6riLCZKLyWrZ",
+      "repo": "overlayr",
+      "price": 24,
+      "icon": "🎛️"
+    },
+    {
+      "slug": "paletteforge",
+      "title": "Paletteforge — Generate, lock and export brand color palettes — no account,…",
+      "brand": "Paletteforge",
+      "productId": "prod_l1gYHuTaqG7zr",
+      "repo": "color-palette-brand-kit",
+      "price": 15,
+      "icon": "🎨"
+    },
+    {
+      "slug": "pdfsmith",
+      "title": "PDFsmith — Offline PDF Toolkit (Merge, Split, Watermark, Convert)",
+      "brand": "PDFsmith",
+      "productId": "prod_8h9pPamZQSYxS",
+      "repo": "pdf-toolkit",
+      "price": 29,
+      "icon": "📄"
+    },
+    {
+      "slug": "pingcron",
+      "title": "Pingcron — Self-Hosted Cron Job Monitoring (Dead-Man's Switch)",
+      "brand": "Pingcron",
+      "productId": "prod_rrKzYM6ZluzXd",
+      "repo": "pingcron",
+      "price": 29,
+      "icon": "🫀"
+    },
+    {
+      "slug": "pitchcraft",
+      "title": "Pitchcraft — Send trackable, sign-ready proposals from your own server.",
+      "brand": "Pitchcraft",
+      "productId": "prod_pDTgRCoWY8LdR",
+      "repo": "proposal-generator",
+      "price": 29,
+      "icon": "📑"
+    },
+    {
+      "slug": "postbird",
+      "title": "Postbird — Self-Hosted Email Campaigns Over Your Own SMTP",
+      "brand": "Postbird",
+      "productId": "prod_IoPxi97BYaT2b",
+      "repo": "postbird",
+      "price": 59,
+      "icon": "🕊️"
+    },
+    {
+      "slug": "postcraft",
+      "title": "Postcraft Templates — Turn a spreadsheet into a quarter of on-brand posts —…",
+      "brand": "Postcraft Templates",
+      "productId": "prod_sDuWvW7YuG78e",
+      "repo": "social-media-graphics-templates",
+      "price": 19,
+      "icon": "🎨"
+    },
+    {
+      "slug": "postdock",
+      "title": "PostDock — Self-Hosted Social Media Scheduler",
+      "brand": "PostDock",
+      "productId": "prod_jl46kAqjX9Qya",
+      "repo": "social-scheduler",
+      "price": 49,
+      "icon": "📣"
+    },
+    {
+      "slug": "pulsecheck",
+      "title": "Pulsecheck — NPS, CSAT and CES surveys you own forever.",
+      "brand": "Pulsecheck",
+      "productId": "prod_pmWxWorqQY8TD",
+      "repo": "nps-survey-tool",
+      "price": 29,
+      "icon": "📈"
+    },
+    {
+      "slug": "punchcard",
+      "title": "Punchcard — Time tracking and timesheet approval you own forever.",
+      "brand": "Punchcard",
+      "productId": "prod_rEaj1MRTNldQg",
+      "repo": "timesheet-approval",
+      "price": 29,
+      "icon": "⏱️"
+    },
+    {
+      "slug": "queuecraft",
+      "title": "Queuecraft — Self-Hosted Viral Waitlist + Referral Queue-Jumping",
+      "brand": "Queuecraft",
+      "productId": "prod_1K1wXA5pb7lUr",
+      "repo": "queuecraft",
+      "price": 29,
+      "icon": "🎟️"
+    },
+    {
+      "slug": "quillpad",
+      "title": "Quillpad — Local-First Markdown Notes (Your Vault Is a Folder)",
+      "brand": "Quillpad",
+      "productId": "prod_7QGet7tCMxJLc",
+      "repo": "quillpad-notes",
+      "price": 29,
+      "icon": "🪶"
+    },
+    {
+      "slug": "quizcraft",
+      "title": "Quizcraft — Lead-gen quizzes you own — never metered per response.",
+      "brand": "Quizcraft",
+      "productId": "prod_tum6sHlmJdqX3",
+      "repo": "quiz-builder",
+      "price": 29,
+      "icon": "❓"
+    },
+    {
+      "slug": "quotewell",
+      "title": "Quotewell — Build a price catalog once and turn out branded PDF quotes offline.",
+      "brand": "Quotewell",
+      "productId": "prod_oIMn2pjXSucew",
+      "repo": "quote-estimator",
+      "price": 29,
+      "icon": "🧮"
+    },
+    {
+      "slug": "rampcheck",
+      "title": "Rampcheck — New-hire onboarding you own forever.",
+      "brand": "Rampcheck",
+      "productId": "prod_mxuNdHJ8MlbDc",
+      "repo": "onboarding-checklist",
+      "price": 29,
+      "icon": "✅"
+    },
+    {
+      "slug": "redirectly",
+      "title": "Redirectly — Bulk 301/302 redirect management you own forever.",
+      "brand": "Redirectly",
+      "productId": "prod_yXe9so8OgaAD0",
+      "repo": "redirect-manager",
+      "price": 24,
+      "icon": "↪️"
+    },
+    {
+      "slug": "reelsnag",
+      "title": "Reelsnag — Desktop yt-dlp GUI for Backing Up Your Own Videos",
+      "brand": "Reelsnag",
+      "productId": "prod_Pjz4AQILul9bf",
+      "repo": "reelsnag",
+      "price": 24,
+      "icon": "📥"
+    },
+    {
+      "slug": "reflink",
+      "title": "Reflink — Run your affiliate program from one Node process and one SQLite file.",
+      "brand": "Reflink",
+      "productId": "prod_mzCZjH8oJo4By",
+      "repo": "affiliate-tracker",
+      "price": 39,
+      "icon": "🤝"
+    },
+    {
+      "slug": "remindly",
+      "title": "Remindly — SMS and email appointment reminders on your own Twilio account —…",
+      "brand": "Remindly",
+      "productId": "prod_WY38oEYALWGr8",
+      "repo": "appointment-reminder-sms",
+      "price": 34,
+      "icon": "📲"
+    },
+    {
+      "slug": "renewcheck",
+      "title": "Renewcheck — Track every subscription's renewal date without linking your…",
+      "brand": "Renewcheck",
+      "productId": "prod_WMqqNOhqpf4uc",
+      "repo": "subscription-tracker",
+      "price": 15,
+      "icon": "🔔"
+    },
+    {
+      "slug": "resumecraft",
+      "title": "Resumecraft — Build a resume you own forever, on your own machine.",
+      "brand": "Resumecraft",
+      "productId": "prod_EQ5Gwcjp43Ngf",
+      "repo": "resume-builder",
+      "price": 19,
+      "icon": "📄"
+    },
+    {
+      "slug": "roster",
+      "title": "Roster — The member directory you buy once and own forever.",
+      "brand": "Roster",
+      "productId": "prod_Ecyjq6QKZdncq",
+      "repo": "member-directory",
+      "price": 19,
+      "icon": "📇"
+    },
+    {
+      "slug": "scantrail",
+      "title": "Scantrail — Self-Hosted Dynamic QR Codes + Scan Analytics",
+      "brand": "Scantrail",
+      "productId": "prod_tTdoGtoqiK9K7",
+      "repo": "qr-tracker",
+      "price": 24,
+      "icon": "🔳"
+    },
+    {
+      "slug": "secretbox",
+      "title": "Secretbox — Self-hosted team secrets and env-var manager, no per-seat…",
+      "brand": "Secretbox",
+      "productId": "prod_l4XepqHG4ZvLM",
+      "repo": "env-secrets-manager",
+      "price": 39,
+      "icon": "🗝️"
+    },
+    {
+      "slug": "serpdeck",
+      "title": "Serpdeck — Self-Hosted Keyword Rank Tracker",
+      "brand": "Serpdeck",
+      "productId": "prod_Zi0im0jpPs9I0",
+      "repo": "serpdeck",
+      "price": 39,
+      "icon": "📈"
+    },
+    {
+      "slug": "shiftly",
+      "title": "Shiftly — Employee shift scheduling you own forever.",
+      "brand": "Shiftly",
+      "productId": "prod_aTL9ohDTFl5gG",
+      "repo": "shift-scheduler",
+      "price": 29,
+      "icon": "🗓️"
+    },
+    {
+      "slug": "shipnotes",
+      "title": "Shipnotes — Self-Hosted Changelog + Roadmap + Feature Voting",
+      "brand": "Shipnotes",
+      "productId": "prod_CQVNjMSMNgxmt",
+      "repo": "changelog-roadmap",
+      "price": 49,
+      "icon": "🚢"
+    },
+    {
+      "slug": "shrinkray",
+      "title": "Shrinkray — Unlimited Local Image Compression & Conversion",
+      "brand": "Shrinkray",
+      "productId": "prod_2i9WirlNncI4A",
+      "repo": "image-compressor",
+      "price": 19,
+      "icon": "🗜️"
+    },
+    {
+      "slug": "sigcraft",
+      "title": "SigCraft — Team Email Signature Studio",
+      "brand": "SigCraft",
+      "productId": "prod_XdEWEK1LmcdjM",
+      "repo": "email-signature",
+      "price": 15,
+      "icon": "✒️"
+    },
+    {
+      "slug": "signboard",
+      "title": "Signboard — Self-Hosted Digital Signage",
+      "brand": "Signboard",
+      "productId": "prod_IsjahvO2AAH77",
+      "repo": "signboard",
+      "price": 49,
+      "icon": "📺"
+    },
+    {
+      "slug": "slidecraft",
+      "title": "Slidecraft — The auto-layout deck builder you buy once.",
+      "brand": "Slidecraft",
+      "productId": "prod_Ka2hvJbcWkqA4",
+      "repo": "presentation-builder",
+      "price": 29,
+      "icon": "📊"
+    },
+    {
+      "slug": "snapfleet",
+      "title": "Snapfleet — Self-Hosted Screenshot API (Unlimited Renders)",
+      "brand": "Snapfleet",
+      "productId": "prod_B3Uq2WjaX024o",
+      "repo": "snapfleet",
+      "price": 39,
+      "icon": "📸"
+    },
+    {
+      "slug": "snapreceipt",
+      "title": "Snapreceipt — Scan receipts with local OCR and export tax-ready reports —…",
+      "brand": "Snapreceipt",
+      "productId": "prod_g70jQMsQGb63m",
+      "repo": "receipt-scanner-expense",
+      "price": 19,
+      "icon": "📸"
+    },
+    {
+      "slug": "snipvault",
+      "title": "Snipvault — Self-Hosted Code Snippet Manager",
+      "brand": "Snipvault",
+      "productId": "prod_JP2I7P9qn14zP",
+      "repo": "snipvault",
+      "price": 19,
+      "icon": "📌"
+    },
+    {
+      "slug": "splitpoint",
+      "title": "Splitpoint — A/B testing and feature flags you own forever.",
+      "brand": "Splitpoint",
+      "productId": "prod_Uv4IocygH6knB",
+      "repo": "ab-testing-tool",
+      "price": 49,
+      "icon": "🔀"
+    },
+    {
+      "slug": "starstack",
+      "title": "Star Stack — Show the five stars you already earned, on your own site.",
+      "brand": "Star Stack",
+      "productId": "prod_yjiT1xjDh7Dxs",
+      "repo": "review-aggregator-widget",
+      "price": 29,
+      "icon": "⭐"
+    },
+    {
+      "slug": "statfox",
+      "title": "Statfox — Self-Hosted Privacy-First Web Analytics",
+      "brand": "Statfox",
+      "productId": "prod_dCSBa0h2l3aey",
+      "repo": "web-analytics",
+      "price": 49,
+      "icon": "🦊"
+    },
+    {
+      "slug": "streakly",
+      "title": "Streakly — Desktop Habit Tracker You Own Forever",
+      "brand": "Streakly",
+      "productId": "prod_GnQWvNqEJ80pJ",
+      "repo": "habit-tracker",
+      "price": 15,
+      "icon": "🔥"
+    },
+    {
+      "slug": "syncvault",
+      "title": "Syncvault — Encrypted backups to storage you already own — no Backblaze…",
+      "brand": "Syncvault",
+      "productId": "prod_q58TAcnXCvUJ6",
+      "repo": "data-backup-cloud-sync",
+      "price": 29,
+      "icon": "☁️"
+    },
+    {
+      "slug": "textract",
+      "title": "Textract — Offline Desktop OCR",
+      "brand": "Textract",
+      "productId": "prod_by5Rpxn7Q65DS",
+      "repo": "textract-ocr",
+      "price": 19,
+      "icon": "🔎"
+    },
+    {
+      "slug": "timevault",
+      "title": "Timevault — Self-Hosted Time Tracking for Freelancers",
+      "brand": "Timevault",
+      "productId": "prod_rE5YBLfVmYobG",
+      "repo": "timevault-tracker",
+      "price": 29,
+      "icon": "⏱️"
+    },
+    {
+      "slug": "trimly",
+      "title": "Trimly — Self-Hosted Branded Link Shortener + Analytics",
+      "brand": "Trimly",
+      "productId": "prod_uKhf5ztCNRFnN",
+      "repo": "link-shortener",
+      "price": 29,
+      "icon": "🔗"
+    },
+    {
+      "slug": "upkeepstatus",
+      "title": "Upkeep Status — The public status page you own forever.",
+      "brand": "Upkeep Status",
+      "productId": "prod_2Qtem3mHv1r81",
+      "repo": "status-page",
+      "price": 29,
+      "icon": "🟢"
+    },
+    {
+      "slug": "upwatch",
+      "title": "Upwatch — Self-Hosted Uptime Monitoring + Status Page",
+      "brand": "Upwatch",
+      "productId": "prod_vJcpRS2dhFCIo",
+      "repo": "uptime-monitor",
+      "price": 39,
+      "icon": "📡"
+    },
+    {
+      "slug": "utmcraft",
+      "title": "UTMcraft — Consistent campaign links and honest click counts on your own domain.",
+      "brand": "UTMcraft",
+      "productId": "prod_Th8lelGsz4j2m",
+      "repo": "utm-campaign-builder",
+      "price": 19,
+      "icon": "🧷"
+    },
+    {
+      "slug": "vaultkeeper",
+      "title": "Vaultkeeper — Scheduled, Encrypted Database Backups You Own",
+      "brand": "Vaultkeeper",
+      "productId": "prod_x6Nv9ye2YnLW3",
+      "repo": "vaultkeeper",
+      "price": 39,
+      "icon": "🔐"
+    },
+    {
+      "slug": "vaultly",
+      "title": "Vaultly — The zero-knowledge team password manager you own forever.",
+      "brand": "Vaultly",
+      "productId": "prod_IZEvyyFdpe86N",
+      "repo": "password-manager-selfhosted",
+      "price": 39,
+      "icon": "🔐"
+    },
+    {
+      "slug": "voicebarn",
+      "title": "Voicebarn — Unlimited Offline Text-to-Speech Studio",
+      "brand": "Voicebarn",
+      "productId": "prod_k3GkeRZIyskBy",
+      "repo": "voicebarn",
+      "price": 34,
+      "icon": "🗣️"
+    },
+    {
+      "slug": "voicebox",
+      "title": "Voicebox — A self-hosted feedback board and public roadmap on your own box.",
+      "brand": "Voicebox",
+      "productId": "prod_d9YFso71bwhud",
+      "repo": "feedback-roadmap-voting",
+      "price": 34,
+      "icon": "🗳️"
+    },
+    {
+      "slug": "whisperdesk",
+      "title": "WhisperDesk — Unlimited Local Audio & Video Transcription",
+      "brand": "WhisperDesk",
+      "productId": "prod_gstaRjCeNqLOu",
+      "repo": "whisper-transcriber",
+      "price": 39,
+      "icon": "🎙️"
+    },
+    {
+      "slug": "wrangle",
+      "title": "Wrangle — The Offline Developer Data Toolbox (10 Tools)",
+      "brand": "Wrangle",
+      "productId": "prod_1rnGpxdJyEq2u",
+      "repo": "wrangle-toolbox",
+      "price": 15,
+      "icon": "🛠️"
+    }
+  ]
+}
