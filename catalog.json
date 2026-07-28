@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T01:53:17.255Z",
+  "generatedAt": "2026-07-28T10:10:23.723Z",
   "companyId": "biz_Ro2hWjwgeK5rm8",
   "bundle": {
     "slug": "onetimesuite-complete",
@@ -35,6 +35,15 @@
       "repo": "recurring-billing-mini",
       "price": 49,
       "icon": "🔁"
+    },
+    {
+      "slug": "bloomrecorder",
+      "title": "BloomRecorder — Local-first screen & camera recorder.",
+      "brand": "BloomRecorder",
+      "productId": "prod_Gr8VamJj8HRrd",
+      "repo": "bloomrecorder",
+      "price": 29,
+      "icon": "🎬"
     },
     {
       "slug": "boardly",
@@ -907,6 +916,15 @@
       "productId": "prod_gstaRjCeNqLOu",
       "repo": "whisper-transcriber",
       "price": 39,
+      "icon": "🎙️"
+    },
+    {
+      "slug": "wispertalk",
+      "title": "WisperTalk — Lifetime AI dictation for Windows & macOS.",
+      "brand": "WisperTalk",
+      "productId": "prod_bdZHclbTwYxIm",
+      "repo": "wispertalk-app",
+      "price": 49,
       "icon": "🎙️"
     },
     {

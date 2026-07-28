@@ -4,6 +4,7 @@ const express = require('express');
 const whop = require('./whop');
 const session = require('./session');
 const { loginPage, dashboardPage, errorPage } = require('./render');
+const downloads = require('./downloads');
 
 const PORT = Number(process.env.PORT) || 5375;
 const CLIENT_ID = process.env.WHOP_OAUTH_CLIENT_ID || '';
@@ -46,11 +47,17 @@ const app = express();
 app.disable('x-powered-by');
 
 // ---- routes ----
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
   const sess = session.getSession(req);
   if (!sess) return res.send(loginPage({ error: req.query.error }));
   const { owned, hasBundle } = resolveOwned(sess.memberships || []);
-  res.send(dashboardPage({ user: sess, owned, hasBundle, catalogSize: catalog.products.length }));
+  // Resolve installers for what this customer owns. Results are cached per
+  // repo for an hour, so a bundle customer with 101 apps doesn't trigger 101
+  // GitHub calls on every page load.
+  const withDownloads = await Promise.all(
+    owned.map(async (p) => ({ ...p, downloads: await downloads.downloadInfo(p).catch(() => null) }))
+  );
+  res.send(dashboardPage({ user: sess, owned: withDownloads, hasBundle, catalogSize: catalog.products.length }));
 });
 
 app.get('/login', (req, res) => {

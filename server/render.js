@@ -41,6 +41,10 @@ section { padding: 3.5rem 0; }
 .card .slug { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-faint); text-transform: uppercase; letter-spacing: 0.1em; }
 .card .price-fig { font-family: var(--mono); font-weight: 600; color: var(--price); font-size: 0.9rem; }
 .card .links { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-family: var(--mono); font-size: 0.8rem; margin-top: auto; padding-top: 0.5rem; border-top: 1px dashed var(--line); }
+.card .downloads { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem; margin-top: 0.35rem; }
+.card .dl-label { font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); width: 100%; }
+.card a.dl { display: inline-flex; align-items: center; gap: 0.35rem; background: var(--price, #16a34a); color: #fff; text-decoration: none; font-family: var(--mono); font-size: 0.78rem; font-weight: 600; padding: 0.4rem 0.75rem; border-radius: 999px; }
+.card a.dl:hover { filter: brightness(1.08); }
 .muted { color: var(--ink-soft); }
 .faint { color: var(--ink-faint); font-family: var(--mono); font-size: 0.8rem; }
 .notice { background: var(--paper-raised); border: 1px solid var(--line); border-left: 3px solid var(--price); border-radius: 6px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
@@ -89,11 +93,29 @@ function loginPage({ error } = {}) {
   return layout({ title: 'OneTimeSuite — Your library', body });
 }
 
+/* Installer buttons. Rendered only when the app actually has published
+   installers — no dead "Download" links for apps that aren't built yet. */
+function downloadRow(d) {
+  if (!d) return '';
+  const btn = (href, label) => `<a class="dl" href="${esc(href)}">${esc(label)}</a>`;
+  const buttons = [
+    d.win ? btn(d.win, 'Windows') : '',
+    d.macArm ? btn(d.macArm, 'Mac (Apple Silicon)') : '',
+    d.macIntel ? btn(d.macIntel, 'Mac (Intel)') : '',
+  ].filter(Boolean).join('');
+  if (!buttons) return '';
+  return `<div class="downloads">
+    <span class="dl-label">Download${d.version ? ` v${esc(d.version)}` : ''}</span>
+    ${buttons}
+  </div>`;
+}
+
 function productCard(p) {
   return `<div class="card">
   <span class="slug">${esc(p.slug)}</span>
   <h3>${esc(p.icon ? p.icon + ' ' : '')}${esc(p.brand || p.title)}</h3>
   <span class="price-fig">$${esc(p.price)} once — owned</span>
+  ${downloadRow(p.downloads)}
   <div class="links">
     <a href="https://github.com/bensblueprints/${esc(p.repo)}" target="_blank" rel="noopener">GitHub</a>
     <a href="https://${esc(p.slug)}.onetimesuite.com" target="_blank" rel="noopener">${esc(p.slug)}.onetimesuite.com</a>
